@@ -1,0 +1,43 @@
+
+  body {
+    font-family: Arial;
+    color: black;
+    font-size: 1.2rem;
+    display: grid;
+    place-content: center;
+    height: 97vh;
+    background: linear-gradient(to bottom left, orangered, orange);
+
+  }
+
+  h1{
+    display: flex;
+    place-content: center;
+  }
+
+  #chatbox {
+    padding: 2rem; 
+    border:  2px solid white;
+    border-radius: 6px;
+  }
+
+  #chatbox input{
+    padding: 0.3rem;
+    border: 1px solid white;
+    font-family: Arial;
+  }
+
+  button{
+    padding: 0.3rem;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to bottom left, orangered, orange);
+    border: 1px solid white;
+    border-radius: 0.5rem 0 0.5rem 0;
+  }
+
+  button:hover{
+    color: orangered;
+    background: white;
+    border-radius: 0 0.5rem 0 0.5rem;
+  }
